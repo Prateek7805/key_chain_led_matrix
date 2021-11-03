@@ -1,6 +1,7 @@
 # keychain led matrix
 This project aims to create a web interface for a custom made PCB for an 8x16 LED matrix display using ESP8266.
 
+![picture alt](https://raw.githubusercontent.com/Prateek7805/keychain_led_matrix/main/keyChain.jpg "8x16 Display")
 ### Features: ###
 * Pocket size PCB - smaller footprint using 0603 smd LEDs.
 * Supports all printable characters in the ASCII table.
