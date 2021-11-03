@@ -1,7 +1,8 @@
 # keychain led matrix
 This project aims to create a web interface for a custom made PCB for an 8x16 LED matrix display using ESP8266.
 
-![picture alt](https://raw.githubusercontent.com/Prateek7805/keychain_led_matrix/main/keyChain.jpg "8x16 Display")
+<img src="https://raw.githubusercontent.com/Prateek7805/keychain_led_matrix/main/keyChain.jpg" alt="8x16 Display" width="200" height="auto"/>
+
 ### Features: ###
 * Pocket size PCB - smaller footprint using 0603 smd LEDs.
 * Supports all printable characters in the ASCII table.
@@ -37,7 +38,7 @@ This project aims to create a web interface for a custom made PCB for an 8x16 LE
 #### Uploading the code ####
 * This requires an FTDI programmer or a nodemcu
 * Follow the pinout below and connect the pins accordingly
-* [PIC]
+<img src="https://raw.githubusercontent.com/Prateek7805/keychain_led_matrix/main/Pinout.JPG" alt="Pinout" width="500" height="auto"/>
 * Download and Install Arduino IDE
 * Install ESP8266 board
 * [Install the SPIFFS upload plugin](https://randomnerdtutorials.com/install-esp8266-filesystem-uploader-arduino-ide/)
