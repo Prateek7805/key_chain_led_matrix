@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name tp4056_module2)(type Legacy)(uri ${KIPRJMOD}/tp4056_module2.lib)(options "")(descr ""))
+)
