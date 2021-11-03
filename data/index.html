@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>pocketMatrix</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="row z1">
+                <div class="col"></div>
+                <div class="col"><p class="d-table center t-title t-large">Pocket Matrix</p><p class="d-table center t-title t-small">Matrix</p></div> 
+                <div class="col"><span class="settings"><input type="checkbox" id="gear" ><label for="gear"><img id="s-i" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZGZhZjYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iZmVhdGhlciBmZWF0aGVyLXNldHRpbmdzIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIzIj48L2NpcmNsZT48cGF0aCBkPSJNMTkuNCAxNWExLjY1IDEuNjUgMCAwIDAgLjMzIDEuODJsLjA2LjA2YTIgMiAwIDAgMSAwIDIuODMgMiAyIDAgMCAxLTIuODMgMGwtLjA2LS4wNmExLjY1IDEuNjUgMCAwIDAtMS44Mi0uMzMgMS42NSAxLjY1IDAgMCAwLTEgMS41MVYyMWEyIDIgMCAwIDEtMiAyIDIgMiAwIDAgMS0yLTJ2LS4wOUExLjY1IDEuNjUgMCAwIDAgOSAxOS40YTEuNjUgMS42NSAwIDAgMC0xLjgyLjMzbC0uMDYuMDZhMiAyIDAgMCAxLTIuODMgMCAyIDIgMCAwIDEgMC0yLjgzbC4wNi0uMDZhMS42NSAxLjY1IDAgMCAwIC4zMy0xLjgyIDEuNjUgMS42NSAwIDAgMC0xLjUxLTFIM2EyIDIgMCAwIDEtMi0yIDIgMiAwIDAgMSAyLTJoLjA5QTEuNjUgMS42NSAwIDAgMCA0LjYgOWExLjY1IDEuNjUgMCAwIDAtLjMzLTEuODJsLS4wNi0uMDZhMiAyIDAgMCAxIDAtMi44MyAyIDIgMCAwIDEgMi44MyAwbC4wNi4wNmExLjY1IDEuNjUgMCAwIDAgMS44Mi4zM0g5YTEuNjUgMS42NSAwIDAgMCAxLTEuNTFWM2EyIDIgMCAwIDEgMi0yIDIgMiAwIDAgMSAyIDJ2LjA5YTEuNjUgMS42NSAwIDAgMCAxIDEuNTEgMS42NSAxLjY1IDAgMCAwIDEuODItLjMzbC4wNi0uMDZhMiAyIDAgMCAxIDIuODMgMCAyIDIgMCAwIDEgMCAyLjgzbC0uMDYuMDZhMS42NSAxLjY1IDAgMCAwLS4zMyAxLjgyVjlhMS42NSAxLjY1IDAgMCAwIDEuNTEgMUgyMWEyIDIgMCAwIDEgMiAyIDIgMiAwIDAgMS0yIDJoLS4wOWExLjY1IDEuNjUgMCAwIDAtMS41MSAxeiI+PC9wYXRoPjwvc3ZnPg==" /></label></span></div>  
+            </div>
+        </div>
+           
+        <div class="content">
+            <div class="p-5 mx my">
+                <p id="currentText">Currently Displaying: </p>
+            </div>
+            <hr>
+            <div class="enterText p-5 mx my">
+                <span>Enter Text: </span>
+                <div class="i-cont my"><input type="text" id="enterText" class="txt t-txt" placeholder="Type Something..."><button class="btn my t-txt" id="submitText">Submit</button></div>
+            </div>
+            <hr>
+                <div class="speed mx my">
+                    <span>Speed: <input type="range" id="speed" class="g-range" min="0" max="1000" step = "0" value="500"><span class="mx" id="speedVal">500</span></span>
+                </div>
+            <hr>
+            <div class="speed mx my">
+                <span>Bright: <input type="range" id="bright" class="g-range" min="0" max="200" step = "0" value="150"><span class="mx" id="brightVal">150</span></span>
+            </div>
+            <hr>
+            <div class="b-r">
+                <div class="datarow">
+                    <div class="b-c"><input id="rn-b" class='d-n g-b' type="checkbox"><label for='rn-b' class="c-btn t-txt">Rename</label></div>
+                    <div class="b-c"><input id="de-b" class='d-n r-b' type="checkbox"><label for = 'de-b' class="c-btn t-txt">Delete</label></div>
+                    <div class="b-c"><input id="d-off" class='y-b d-n' type="checkbox"><label for='d-off' class=" d-off c-btn t-txt">Off</label></div>
+                </div>
+            </div>
+            
+            <hr>
+            <div class="data">
+                
+            </div>
+        </div>
+        <div class="contentNav">
+            <div class="p-5 mx my">
+                <p id="err"></p>
+            </div>
+            <div class="n-row">
+                <div class="n-col"><div><p class="t-center t-title">Wifi Mode</p><div class="r2"><div class="c2"><input type="radio" id="WM0" name="wifi" class="WM" value="WM0"><label for="WM0" class="center">STA</label></div><div class="c2"><input type="radio" id="WM1" class="WM" name="wifi" value="WM1"><label for="WM1" class="center">AP</label></div></div></div></div>
+                <div class="n-col"><div><p class="t-center t-title">Factory Reset</p><div> <button class="g-button g-orange d-table center" onclick='RD(this)' id="RD">Reset</button></div></div></div>
+                <div class="n-col"><div><p class="t-center t-title">Auto Off</p><div><div class='r2'><div class='c2'><button class='center d-table g-button g-green' id='A-EN' onclick = 'AO(this)'>Enable</button></div><div class='c2'><button id='A-SET' class='center d-table g-button g-green' onclick = 'AO(this)'>Set</button></div></div></div><p id= 'AO-t' class='t-center my t-f'></p></div></div>
+            </div>
+            <div class="n-row">
+                <div class="n-col"><div><p class="t-center t-title">WiFi AP</p><div class="r2"><div class="c2-t"><input type='text' id='WP-ssid' class='txt d-table center' placeholder='ssid'></div><div class="c2-t"><input type='password' id='WP-pass' class='txt d-table center' placeholder='pass'></div></div><div><button id='WP-b' class='g-button g-green my d-table center'>save</button></div></div></div>
+                <div class="n-col"><div><p class="t-center t-title">WiFi Power</p><div> <button class='g-button g-orange d-table center' onclick='WO(this)' id='WO'>PowerDown</button></div></div></div>
+                <div class="n-col"><div><p class="t-center t-title">Reset</p><div><button class='g-button g-orange d-table center' id='RS'>Reset MCU</button></div><p class="t-title t-center my">DeepSleep</p><div class='d-table center'><input type='number' class='txt' placeholder = 'Enter time' id='RS-txt'><button id='RS-D' class='mx g-button my g-green t-b'>&#8734;</button></div></div></div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
