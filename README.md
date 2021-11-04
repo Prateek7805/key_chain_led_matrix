@@ -2,6 +2,7 @@
 This project aims to create a web interface for a custom made PCB for an 8x16 LED matrix display using ESP8266.
 
 <img src="https://raw.githubusercontent.com/Prateek7805/keychain_led_matrix/main/keyChain.jpg" alt="8x16 Display" width="200" height="auto"/>
+[Demo](instagram.com/p/CPmjHNIFKIF/)
 
 ### Features: ###
 * Pocket size PCB - smaller footprint using 0603 smd LEDs.
