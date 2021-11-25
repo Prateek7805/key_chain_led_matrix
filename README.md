@@ -42,7 +42,7 @@ The PCB is portable and contains smd components, the project code is written usi
 * This requires an FTDI programmer or a nodemcu
 * Follow the pinout below and connect the pins accordingly
 <img src="https://raw.githubusercontent.com/Prateek7805/keychain_led_matrix/main/Pinout.JPG" alt="Pinout" width="500" height="auto"/>
-* Download and Install Arduino IDE
+* Download and Install Arduino IDE  
 * Install ESP8266 board
 * [Install the SPIFFS upload plugin](https://randomnerdtutorials.com/install-esp8266-filesystem-uploader-arduino-ide/)
 * Open the keyChainMatrix-v6.ino
