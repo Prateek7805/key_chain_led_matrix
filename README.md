@@ -1,5 +1,6 @@
 # keychain led matrix
 This project aims to create a web interface for a custom made PCB for an 8x16 LED matrix display using ESP8266.
+The PCB is portable and contains smd components, the project code is written using Embedded C++, HTML, Pure CSS and Vanilla JavaScript with fewer dependencies.
 
 <img src="https://raw.githubusercontent.com/Prateek7805/keychain_led_matrix/main/keyChain.jpg" alt="8x16 Display" width="200" height="auto"/>
 
