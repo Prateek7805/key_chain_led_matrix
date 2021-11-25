@@ -41,15 +41,16 @@ The PCB is portable and contains smd components, the project code is written usi
 #### Uploading the code ####
 * This requires an FTDI programmer or a nodemcu
 * Follow the pinout below and connect the pins accordingly
-<img src="https://raw.githubusercontent.com/Prateek7805/keychain_led_matrix/main/Pinout.JPG" alt="Pinout" width="500" height="auto"/>
+<img src="https://raw.githubusercontent.com/Prateek7805/keychain_led_matrix/main/Pinout.JPG" alt="Pinout" width="500" height="auto"/>  
+
 * Download and Install Arduino IDE  
-* Install ESP8266 board
-* [Install the SPIFFS upload plugin](https://randomnerdtutorials.com/install-esp8266-filesystem-uploader-arduino-ide/)
-* Open the keyChainMatrix-v6.ino
-* select the board to be ESP-12 and Flash size as 4MB(FS:2MB) 
-* Select the appropriate COM PORT and click upload
-* Click tools > ESP8266 Sketch Data Upload
-* If you are new this I would recommend watching a tutorial on running a blick sketch on ESP8266
+* Install ESP8266 board  
+* [Install the SPIFFS upload plugin](https://randomnerdtutorials.com/install-esp8266-filesystem-uploader-arduino-ide/)  
+* Open the keyChainMatrix-v6.ino  
+* select the board to be ESP-12 and Flash size as 4MB(FS:2MB)  
+* Select the appropriate COM PORT and click upload  
+* Click tools > ESP8266 Sketch Data Upload  
+* If you are new this I would recommend watching a tutorial on running a blick sketch on ESP8266  
 
 #### Initial Setup ####
 * Power on the card sized LED Matrix
